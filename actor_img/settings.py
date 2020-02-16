@@ -74,10 +74,11 @@ DUPEFILTER_CLASS = 'scrapy_splash.SplashAwareDupeFilter'
 # Configure item pipelines
 # See https://docs.scrapy.org/en/latest/topics/item-pipeline.html
 ITEM_PIPELINES = {
-   'scrapy.pipelines.images.ImagesPipeline': 1,
+   'actor_img.pipelines.ActorImgPipeline': 1,
 }
 
-IMAGES_STORE = '/Users/marlin/Pictures'
+# IMAGES_STORE = '/Users/marlin/Pictures'
+IMAGES_STORE = '/Users/marlin/Library/Mobile Documents/com~apple~CloudDocs'
 
 DOWNLOAD_TIMEOUT = 1200
 
