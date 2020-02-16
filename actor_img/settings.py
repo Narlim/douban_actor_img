@@ -77,7 +77,7 @@ ITEM_PIPELINES = {
    'scrapy.pipelines.images.ImagesPipeline': 1,
 }
 
-IMAGES_STORE = '/Users/marlin/projects/actor_img/actor_img/'
+IMAGES_STORE = '/Users/marlin/Pictures'
 
 DOWNLOAD_TIMEOUT = 1200
 
